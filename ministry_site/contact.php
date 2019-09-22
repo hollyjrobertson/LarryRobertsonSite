@@ -20,7 +20,7 @@
 
         $mailTo = "larry@larryrobertson.org";
         $headers = "From:".$mailFrom;
-        $subject = "Larry (Massage Therapy), You have mail from ".$name;
+        $subject = "Larry (Ministry), You have mail from ".$name;
         $txt = "You have received an e-mail from ".$name.":\r\n"."\r\n".$message;
 
             if (mail($mailTo, $subject, $txt, $headers)){
@@ -39,26 +39,26 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Massage Therapy - Contact Me</title>
+        <title>Ministry - Contact Me</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link href="assets/css/main.css" rel="stylesheet" type="text/css" media="all" />
         <link href="assets/css/font-awesome.min.css" rel="stylesheet" type="text/css" media="all" />
         <link href="http://fonts.googleapis.com/css?family=Didact+Gothic" rel="stylesheet" />
-        <meta name="keywords" content="Massage, Masseuse, Therapist, Therapy, Heal, Healing">
+        <meta name="keywords" content="Ministry, Minister, Longview, Preaching, Preach, Weddings, Ceremonies, Therapy, Heal, Healing">
         <meta name="author" content="Holly Robertson">
-        <meta name="description" content="Larry Robertson Massage Therapy">
+        <meta name="description" content="Larry Robertson Ministry">
         <link rel="apple-touch-icon" sizes="180x180" href="images/logo/apple-touch-icon.png">
         <link rel="icon" type="image/png" sizes="32x32" href="images/logo/favicon-32x32.png">
         <link rel="icon" type="image/png" sizes="16x16" href="images/logo/favicon-16x16.png">
         <link rel="manifest" href="images/logo/site.webmanifest">
         <!--[if IE 6]><link href="default_ie6.css" rel="stylesheet" type="text/css" /><![endif]-->
     </head>
-<body>
+    <body>
         <!-- Header -->
             <header id="header">
                 <nav class="left">
-                    <a href="#menu"><span>Menu</span></a>
+                    <a href="#menu" title="Menu"><span>Menu</span></a>
                 </nav>
                     <a href="index.html" class="logo"><img src="images/logo.png"/></a>
             </header>
@@ -67,10 +67,10 @@
             <nav id="menu">
                 <ul class="links">
                     <li><a href="index.html">Home</a></li>
-                    <li><a href="#">About Me</a></li>
+                    <li><a href="about.html">About Me</a></li>
                     <li><a href="services.html">Services</a></li>
                     <li><a href="contact.php">Contact Me</a></li>
-                    <li><a href="https://www.mayoclinic.org/healthy-lifestyle/stress-management/in-depth/massage/art-20045743" target="_blank">Article of the Month</a></li>
+                    <li><a href="https://www.desiringgod.org/articles/perfect-patience-with-the-worst-of-sinners" target="_blank">Article of the Month</a></li>
                 </ul>
             </nav>
 
@@ -118,7 +118,7 @@
                     </ul>
                 </div>
                 <div class="copyright">
-                    &copy; Priority One Massage Therapy
+                    &copy; Larry Robertson - Ministry
                 </div>
             </footer>
 

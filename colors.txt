@@ -1,0 +1,9 @@
+blue
+#25a2c3
+
+pink
+#f6755e
+
+green
+#006600
+
